@@ -1,7 +1,7 @@
 # mb-wrangle
 
 ## My Play
-(Hamlet)[http://shakespeare.mit.edu/hamlet/full.html]
+[Hamlet](http://shakespeare.mit.edu/hamlet/full.html)
 
 ## Speaker #1
 Horatio
