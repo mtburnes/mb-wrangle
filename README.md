@@ -19,16 +19,19 @@ and it gave me exactly what I was looking for.
 Every time a character speeks in the play, the HTML looks like <b>[CHARACTER-NAME]</b>. This is a pattern throughout the whole page.
 Using the `grep` commands below, I could get exactly how many times the string occured in the .html file.
 
-Horatio:
-
-`cat full.html | grep '<b>HORATIO</b>' -c`
-
-Total of 112  times.
-
 Hamlet:
 
-`cat full.html | grep '<b>HAMLET</b>' -c`
+`cat full.html | grep '<b>HAMLET</b>' -c >> counts.txt`
 
 Total of 359  times.
 
+Horatio:
+
+`cat full.html | grep '<b>HORATIO</b>' -c >> counts.txt`
+
+Total of 112  times.
+
+
 Grand total of 471 times.
+
+The raw numbers are added to the counts.txt file.
