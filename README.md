@@ -11,6 +11,7 @@ Hamlet
 
 ## My Question
 How many times did those two speakers speak?
+
 Horatio:
 
 `cat full.html | grep '<b>HORATIO</b>' -c`
